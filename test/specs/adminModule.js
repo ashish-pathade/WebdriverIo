@@ -65,6 +65,7 @@ describe('user module',()=>{
     //  await expect(key.getText()).toEqual(productName)
     //  }
      //await browser.pause(5000);
+     // for git second time
     })
 
     
