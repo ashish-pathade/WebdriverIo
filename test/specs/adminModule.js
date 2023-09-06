@@ -3,6 +3,7 @@ describe('user module',()=>{
 
      await browser.url("http://rmgtestingserver/domain/Online_Shopping_Application/index.php")
      await  browser.maximizeWindow()
+     await browser.pause(3000);
      await browser.$('=Login').click()
      await browser.$('#exampleInputEmail1').setValue('anuj.lpu1@gmail.com')
     //await browser.pause(5000);
